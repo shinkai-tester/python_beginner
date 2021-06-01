@@ -1,0 +1,17 @@
+push 0
+push 1
+input
+sub
+input
+pop tmp
+cmpj 8 15 15
+push tmp
+input
+add
+pop tmp
+push -1
+add
+cmpj 8 15 15
+push tmp
+print
+print_chr

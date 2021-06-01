@@ -1,0 +1,1 @@
+print("".join(reversed('Привет мир!')))
